@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Naveen testNG Sessions suite">
+  <test name="My testNG practice" verbose="2" >
+    
+    <classes>
+      <class name="com.testNG.practice.v2"/>
+      <class name="com.testNG.practice.TextNG_Practice"/>
+      
+    </classes>
+  </test> 
+</suite> 

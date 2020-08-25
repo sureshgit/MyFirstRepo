@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Naveen testNG Sessions suite]">
+  <test thread-count="5" name="My testNG practice(failed)">
+    <classes>
+      <class name="com.testNG.practice.v2">
+        <methods>
+          <include name="Search"/>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- com.testNG.practice.v2 -->
+    </classes>
+  </test> <!-- My testNG practice(failed) -->
+</suite> <!-- Failed suite [Naveen testNG Sessions suite] -->
